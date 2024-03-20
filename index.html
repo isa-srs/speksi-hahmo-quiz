@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,9 +7,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
+    <div class="start-page" id="start-page">
         <h1>Kuka Kuolema korjaa -hahmo olet?</h1>
         <p>Selvitä, kuka Kumpulan speksin vuoden 2024 produktion KUOLEMA KORJAA hahmoista olet!</p>
+        <button class="button" id="start">Aloita testi</button>
     </div>
+
+    <div class="quiz-page" id="quiz-page" style="display: none;">
+        <div id="quiz">
+            <!-- questions -->
+        </div>
+    </div>
+    <script src="quiz.js"></script>
 </body>
 </html>
